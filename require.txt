@@ -1,0 +1,34 @@
+A restaurant managing system.
+format date when returning the statement.
+What will it entail:
+    i. Admin interface
+    ii. Number of waiters with tag numbers
+    iii. Menu list: different varaity of food.
+    iv. Make an order place
+
+
+Food waste is a huge problem in Kenya and many other countries, 
+in fact, the severity of the problem borders that of climate change and global warming. 
+Institutions in the catering industry such as hotels, restaurants, supermarkets and events 
+caterers prepare food every day that is not all consumed at the end of the day. This is food 
+that is good for human consumption ends ups as waste most times. More to this, most consumers 
+make food orders but end up having leftovers on their plates at the end of their meals. 
+Plate waste and vegetable peeling produced during food preparation process is still consumable 
+by animals such as pigs and dogs, but most times than not, ends up in waste bins rotting. 
+While this amount of food goes to waste, more and more people sleep everyday hungry and even 
+more are said not to have a nutritious food to keep them active and healthy. 
+Food waste contributes to global warming through greenhouse gas emission comparable 
+to that produced from road transport and mitigating it will have a positive impact on 
+climate change. This being the case, there is need to bridge the gap between excess food 
+produced by hospitality institutions and those who need it either for their consumption for 
+human consumable food or animal consumption for left-over food. This study seeks to help manage 
+food waste in the hospitality industry, by creating a platform where hotels, restaurants, 
+supermarkets or just companies in the catering business report excess food and people in need 
+of food sign up and place their orders for both human consumable food and plate waste suitable 
+for animals. The organizations have a choice either give up the food for free or charge a small fee. 
+The study provides data to these organization to help perform predictive analysis on trends with a 
+goal of enabling them know how much is consumed and keep this in mind when preparing food to avoid 
+food wastage. The software methodology used is prototyping model. From research, it was established 
+that in deed food waste is a global problem that needs attention and a mobile application was created 
+as the front end interface that allows users to browse through meals and place orders and a backend 
+that allows restaurants to update the mobile application with meals available for the day.
