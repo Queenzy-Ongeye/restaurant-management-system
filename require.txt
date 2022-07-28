@@ -7,6 +7,61 @@ What will it entail:
     iv. Make an order place
 
 
+    Entities for restaurants
+    ADMIN INTERFACE...
+    i. Admin interface for each restaurants
+        Should have: 
+            i.Name
+            ii. Opening and closing hours
+    ii. waiters
+        Should have:
+            i. Nametag
+            ii. Name
+            iii. Number of tables assigned  
+    iii. Menu
+        Should have:
+            i. Breakfast
+            ii.lunch
+            iii.Dinner
+            iv. snacks
+            v. Drinks
+    
+    iv. Tables
+        Should have:
+         i. Table tag
+         ii. number of sits
+        
+    
+    CUSTOMER INTERFACE...
+    Authentication:
+        i.sign up
+        ii. Login
+    
+    Restaurants
+        i. Name
+        ii. Menu
+        iii. Number of people
+        iv. Date and time
+        v. cancellation of order
+    
+
+    Payment:
+        i. payment period -> before/after
+        ii. amount
+        iii. payment method
+
+    
+    Receipt:
+        i. Date and times
+        ii. Name
+        iii.message
+        iv. total amount paid
+
+
+
+    
+
+
 Food waste is a huge problem in Kenya and many other countries, 
 in fact, the severity of the problem borders that of climate change and global warming. 
 Institutions in the catering industry such as hotels, restaurants, supermarkets and events 

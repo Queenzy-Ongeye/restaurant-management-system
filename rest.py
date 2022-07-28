@@ -8,20 +8,29 @@ class Restaurant () :
         self.admin = admin
         self.password = password
         self.admin_psd = []
+        self.addWaiter = [] 
     
     def admin_rights(self):
         characters = list(string.ascii_letters + string.digits + "!@#$%^&*()")
         ## shuffling the characters
         random.shuffle(characters)
-        if len(self.password) < 8:
+        if len(self.password) < 8 and self.password != characters:
             return f"Weak password"
-        
-        elif self.password == characters and len(self.password) == 8:
-            for i in range(self.password):
-                self.admin_psd.append(random.choice(characters[i]))
-        
-            random.shuffle(self.admin_psd)
-            print ("".join(self.admin_psd))
+        elif len(self.password) >= 8 :
             return f"Strong password"
         else:
             return f"Invalid password"
+    
+    def add_waiter(self, nametag, name, tables):
+        self.addWaiter.append({
+            'tag': {nametag},
+            'name': {name},
+            'tables': {tables},
+        })
+
+        return self.addWaiter
+    
+
+    def view_waiter(self):
+        for waiter in self.addWaiter:
+            return waiter.lamda()
